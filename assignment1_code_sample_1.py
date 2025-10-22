@@ -7,6 +7,7 @@ db_config = {
     'user': 'admin',
     'password': 'secret123'
 }
+# do not hard code password in file
 
 def get_user_input():
     user_input = input('Enter your name: ')
